@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.container {
+    border: 1px solid rgba(255, 255, 255, 0.505);
+    border-radius: 25px;
+    width: 300px;
+    background-color: rgba(128, 128, 128, 0.1);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.482);
+}
+
+.disp {
+    padding: 30px 20px;
+    text-align: right;
+}
+
+.disp input {
+    width: 100%;
+    border: none;
+    text-align: right;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+}
+
+.disp input:focus {
+    outline: none;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.btn {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 100%;
+    margin: 5px;
+    cursor: pointer;
+    transition: .3s all;
+    font-weight: bolder;
+    border: none;
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.sh1 {
+    background: radial-gradient(rgba(20, 20, 20, 0.276) 50%, rgba(255, 255, 255, 0.845) 90%);
+}
+
+.sh2 {
+    background: linear-gradient(grey, rgb(32, 32, 32));
+}
+
+.sh3 {
+    background: linear-gradient(rgb(251, 185, 105), darkorange);
+    font-size: 40px;
+    font-weight: 100;
+}
